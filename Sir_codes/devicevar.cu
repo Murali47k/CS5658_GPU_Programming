@@ -32,7 +32,7 @@ int main(){
       if(cudaMemcpy(dptr, hptr,sizeof(int)*100,cudaMemcpyHostToDevice)!=cudaSuccess)printf("memcpy error\n");
 	//before the kernel call, flush previous error by calling cudaGetLastError().
 	err=cudaGetLastError();
-	dim3 tpb(10,20);
+	dim3 tpb(20,10);
       K1<<<1,tpb>>>(dptr);
       cudaDeviceSynchronize();
       //now check last error,if there it will be from call to K1.
