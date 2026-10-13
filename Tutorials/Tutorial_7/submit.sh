@@ -5,10 +5,9 @@
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:10:00
 
-module load cuda
+/opt/ohpc/pub/apps/cuda/12.1/bin/nsys profile \
+    --force-overwrite=true \
+    -o matmul_profile \
+    ./matmulpr
 
-nvcc -O3 matmulpr.cu -o matmulpr
-
-nsys profile --force-overwrite=true -o matmulpr_report ./matmulpr
-
-nsys stats matmulpr_report.nsys-rep
+/opt/ohpc/pub/apps/cuda/12.1/bin/nsys stats matmul_profile.nsys-rep
