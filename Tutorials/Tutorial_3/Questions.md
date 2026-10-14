@@ -1,8 +1,7 @@
 ## Tutorial 3 Questions
 
----
 
-#### Q1 : BFS on GPU
+### Q1 : BFS on GPU
 
 Implement Breadth-First Search (BFS) on the GPU with the graph stored in CSR format.
 

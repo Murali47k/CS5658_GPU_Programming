@@ -1,8 +1,7 @@
 ## Tutorial 2 Questions
 
----
 
-#### Q1 : SSSP on GPU
+### Q1 : SSSP on GPU
 
 Implement **Single-Source Shortest Path (SSSP)** on the GPU with the graph stored in **CSR (Compressed Sparse Row) format**.
 

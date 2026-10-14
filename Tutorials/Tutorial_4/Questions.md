@@ -1,14 +1,12 @@
 ## Tutorial 4 Questions
 
----
-
-#### Q1 : Basic Matrix Multiplication with Tiling
+### Q1 : Basic Matrix Multiplication with Tiling
 
 Write a CUDA C/C++ program that implements matrix multiplication with tiling for a **4x4 matrix** using a **tile size of 2**. Use hardcoded values for the input matrices. The program should verify the GPU result against a CPU reference implementation.
 
 **File:** `matrix_mul.cu`
 
-##### **Expected Output**
+#### **Expected Output**
 
 ```text
 Input matrices (4x4):
