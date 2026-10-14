@@ -1,0 +1,75 @@
+Matrix Size: 1024 x 1024
+Data Type: int
+Kernel: Naive matrix multiplication (no tiling)
+CPU Time: 4.2359 seconds
+GPU Time: 0.002036 seconds
+Speedup: 2080.46x
+Results match!
+Generating '/tmp/nsys-report-444a.qdstrm'
+[1/8] [0%                          ] matmul_profile.nsys-rep[1/8] [0%                          ] matmul_profile.nsys-rep[1/8] [6%                          ] matmul_profile.nsys-rep[1/8] [==========47%               ] matmul_profile.nsys-rep[1/8] [==========48%               ] matmul_profile.nsys-rep[1/8] [=================74%        ] matmul_profile.nsys-rep[1/8] [====================85%     ] matmul_profile.nsys-rep[1/8] [=====================86%    ] matmul_profile.nsys-rep[1/8] [=====================87%    ] matmul_profile.nsys-rep[1/8] [========================97% ] matmul_profile.nsys-rep[1/8] [========================98% ] matmul_profile.nsys-rep[1/8] [========================99% ] matmul_profile.nsys-rep[1/8] [========================100%] matmul_profile.nsys-rep[1/8] [========================100%] matmul_profile.nsys-rep
+[2/8] [0%                          ] matmul_profile.sqlite[2/8] [1%                          ] matmul_profile.sqlite[2/8] [2%                          ] matmul_profile.sqlite[2/8] [3%                          ] matmul_profile.sqlite[2/8] [4%                          ] matmul_profile.sqlite[2/8] [5%                          ] matmul_profile.sqlite[2/8] [6%                          ] matmul_profile.sqlite[2/8] [7%                          ] matmul_profile.sqlite[2/8] [8%                          ] matmul_profile.sqlite[2/8] [9%                          ] matmul_profile.sqlite[2/8] [10%                         ] matmul_profile.sqlite[2/8] [11%                         ] matmul_profile.sqlite[2/8] [12%                         ] matmul_profile.sqlite[2/8] [13%                         ] matmul_profile.sqlite[2/8] [14%                         ] matmul_profile.sqlite[2/8] [=15%                        ] matmul_profile.sqlite[2/8] [=16%                        ] matmul_profile.sqlite[2/8] [=17%                        ] matmul_profile.sqlite[2/8] [==18%                       ] matmul_profile.sqlite[2/8] [==19%                       ] matmul_profile.sqlite[2/8] [==20%                       ] matmul_profile.sqlite[2/8] [==21%                       ] matmul_profile.sqlite[2/8] [===22%                      ] matmul_profile.sqlite[2/8] [===23%                      ] matmul_profile.sqlite[2/8] [===24%                      ] matmul_profile.sqlite[2/8] [====25%                     ] matmul_profile.sqlite[2/8] [====26%                     ] matmul_profile.sqlite[2/8] [====27%                     ] matmul_profile.sqlite[2/8] [====28%                     ] matmul_profile.sqlite[2/8] [=====29%                    ] matmul_profile.sqlite[2/8] [=====30%                    ] matmul_profile.sqlite[2/8] [=====31%                    ] matmul_profile.sqlite[2/8] [=====32%                    ] matmul_profile.sqlite[2/8] [======33%                   ] matmul_profile.sqlite[2/8] [======34%                   ] matmul_profile.sqlite[2/8] [======35%                   ] matmul_profile.sqlite[2/8] [=======36%                  ] matmul_profile.sqlite[2/8] [=======37%                  ] matmul_profile.sqlite[2/8] [=======38%                  ] matmul_profile.sqlite[2/8] [=======39%                  ] matmul_profile.sqlite[2/8] [========40%                 ] matmul_profile.sqlite[2/8] [========41%                 ] matmul_profile.sqlite[2/8] [========42%                 ] matmul_profile.sqlite[2/8] [=========43%                ] matmul_profile.sqlite[2/8] [=========44%                ] matmul_profile.sqlite[2/8] [=========45%                ] matmul_profile.sqlite[2/8] [=========46%                ] matmul_profile.sqlite[2/8] [==========47%               ] matmul_profile.sqlite[2/8] [==========48%               ] matmul_profile.sqlite[2/8] [==========49%               ] matmul_profile.sqlite[2/8] [===========50%              ] matmul_profile.sqlite[2/8] [===========51%              ] matmul_profile.sqlite[2/8] [===========52%              ] matmul_profile.sqlite[2/8] [===========53%              ] matmul_profile.sqlite[2/8] [============54%             ] matmul_profile.sqlite[2/8] [============55%             ] matmul_profile.sqlite[2/8] [============56%             ] matmul_profile.sqlite[2/8] [============57%             ] matmul_profile.sqlite[2/8] [=============58%            ] matmul_profile.sqlite[2/8] [=============59%            ] matmul_profile.sqlite[2/8] [=============60%            ] matmul_profile.sqlite[2/8] [==============61%           ] matmul_profile.sqlite[2/8] [==============62%           ] matmul_profile.sqlite[2/8] [==============63%           ] matmul_profile.sqlite[2/8] [==============64%           ] matmul_profile.sqlite[2/8] [===============65%          ] matmul_profile.sqlite[2/8] [===============66%          ] matmul_profile.sqlite[2/8] [===============67%          ] matmul_profile.sqlite[2/8] [================68%         ] matmul_profile.sqlite[2/8] [================69%         ] matmul_profile.sqlite[2/8] [================70%         ] matmul_profile.sqlite[2/8] [================71%         ] matmul_profile.sqlite[2/8] [=================72%        ] matmul_profile.sqlite[2/8] [=================73%        ] matmul_profile.sqlite[2/8] [=================74%        ] matmul_profile.sqlite[2/8] [==================75%       ] matmul_profile.sqlite[2/8] [==================76%       ] matmul_profile.sqlite[2/8] [==================77%       ] matmul_profile.sqlite[2/8] [==================78%       ] matmul_profile.sqlite[2/8] [===================79%      ] matmul_profile.sqlite[2/8] [===================80%      ] matmul_profile.sqlite[2/8] [===================81%      ] matmul_profile.sqlite[2/8] [===================82%      ] matmul_profile.sqlite[2/8] [====================83%     ] matmul_profile.sqlite[2/8] [====================84%     ] matmul_profile.sqlite[2/8] [====================85%     ] matmul_profile.sqlite[2/8] [=====================86%    ] matmul_profile.sqlite[2/8] [=====================87%    ] matmul_profile.sqlite[2/8] [=====================88%    ] matmul_profile.sqlite[2/8] [=====================89%    ] matmul_profile.sqlite[2/8] [======================90%   ] matmul_profile.sqlite[2/8] [======================91%   ] matmul_profile.sqlite[2/8] [======================92%   ] matmul_profile.sqlite[2/8] [=======================93%  ] matmul_profile.sqlite[2/8] [=======================94%  ] matmul_profile.sqlite[2/8] [=======================95%  ] matmul_profile.sqlite[2/8] [=======================96%  ] matmul_profile.sqlite[2/8] [========================97% ] matmul_profile.sqlite[2/8] [========================98% ] matmul_profile.sqlite[2/8] [========================99% ] matmul_profile.sqlite[2/8] [========================100%] matmul_profile.sqlite[2/8] [========================100%] matmul_profile.sqlite
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  ------------  -----------  --------  ----------  ------------  ---------------------
+     49.9      162,698,217        656     248,015.6      7,385.5       403  19,108,037     920,944.0  ioctl                
+     44.8      146,209,802         12  12,184,150.2  4,181,995.0     1,629  72,828,318  20,521,409.0  poll                 
+      3.7       12,063,023         37     326,027.6      2,408.0     1,286  11,130,659   1,828,236.6  fopen                
+      0.4        1,224,381         32      38,261.9      5,068.5     3,333     772,269     134,790.1  mmap64               
+      0.4        1,199,416         10     119,941.6     43,561.5    25,824     524,181     154,136.0  sem_timedwait        
+      0.4        1,155,666         65      17,779.5        292.0       127   1,074,696     133,333.6  fcntl                
+      0.3          943,774          4     235,943.5    235,934.5   104,065     367,840     134,617.3  pthread_create       
+      0.1          304,520         57       5,342.5      4,744.0     1,553      13,238       2,071.6  open64               
+      0.1          181,394          6      30,232.3      3,336.5        98      95,191      44,480.4  fread                
+      0.0           87,041         15       5,802.7      2,245.0       844      38,946       9,536.8  mmap                 
+      0.0           34,588         26       1,330.3         44.0        39      33,436       6,548.3  fgets                
+      0.0           32,123         31       1,036.2        878.0       474       4,142         645.6  fclose               
+      0.0           26,579          6       4,429.8      4,532.0     1,629       6,952       1,776.7  open                 
+      0.0           25,615         11       2,328.6      2,742.0       817       3,336         883.7  write                
+      0.0           14,275          5       2,855.0      2,249.0     2,042       4,296       1,035.7  munmap               
+      0.0           13,197         14         942.6      1,047.5       217       2,363         681.6  read                 
+      0.0           10,717          2       5,358.5      5,358.5     3,393       7,324       2,779.6  socket               
+      0.0            9,834          1       9,834.0      9,834.0     9,834       9,834           0.0  connect              
+      0.0            6,843          1       6,843.0      6,843.0     6,843       6,843           0.0  pipe2                
+      0.0            3,407         64          53.2         28.0        23         253          46.8  pthread_mutex_trylock
+      0.0            1,993          8         249.1        216.0       120         623         160.5  dup                  
+      0.0            1,265          1       1,265.0      1,265.0     1,265       1,265           0.0  bind                 
+      0.0              563          1         563.0        563.0       563         563           0.0  listen               
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)     Med (ns)    Min (ns)    Max (ns)     StdDev (ns)           Name        
+ --------  ---------------  ---------  ------------  -----------  ---------  -----------  -------------  --------------------
+     97.4      184,569,106          3  61,523,035.3     52,664.0     50,999  184,465,443  106,471,248.2  cudaMalloc          
+      1.4        2,606,277          3     868,759.0    603,210.0    440,310    1,562,757      606,513.8  cudaMemcpy          
+      1.1        2,018,403          1   2,018,403.0  2,018,403.0  2,018,403    2,018,403            0.0  cudaEventSynchronize
+      0.1          206,649          3      68,883.0     50,593.0     46,678      109,378       35,124.3  cudaFree            
+      0.0           40,257          1      40,257.0     40,257.0     40,257       40,257            0.0  cudaLaunchKernel    
+      0.0           12,948          2       6,474.0      6,474.0      3,138        9,810        4,717.8  cudaEventRecord     
+      0.0           11,396          2       5,698.0      5,698.0        570       10,826        7,252.1  cudaEventCreate     
+      0.0            4,363          2       2,181.5      2,181.5        419        3,944        2,492.6  cudaEventDestroy    
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances   Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)                 Name                
+ --------  ---------------  ---------  -----------  -----------  ---------  ---------  -----------  -----------------------------------
+    100.0        2,012,644          1  2,012,644.0  2,012,644.0  2,012,644  2,012,644          0.0  matrixMul(int *, int *, int *, int)
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count  Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)      Operation     
+ --------  ---------------  -----  ---------  ---------  --------  --------  -----------  ------------------
+     52.1          802,530      2  401,265.0  401,265.0   344,161   458,369     80,757.3  [CUDA memcpy HtoD]
+     47.9          738,178      1  738,178.0  738,178.0   738,178   738,178          0.0  [CUDA memcpy DtoH]
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)      Operation     
+ ----------  -----  --------  --------  --------  --------  -----------  ------------------
+      8.389      2     4.194     4.194     4.194     4.194        0.000  [CUDA memcpy HtoD]
+      4.194      1     4.194     4.194     4.194     4.194        0.000  [CUDA memcpy DtoH]
+
+Generated:
+    /home/s112301019-unnikrishnan/tutorial7/matmul_profile.nsys-rep
+    /home/s112301019-unnikrishnan/tutorial7/matmul_profile.sqlite
